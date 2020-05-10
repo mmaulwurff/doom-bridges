@@ -1,0 +1,70 @@
+// Armor ///////////////////////////////////////////////////////////////////////////////////////////
+
+actor GreenArmorSpawner0 : RandomSpawner replaces ArmorWood      { dropItem "GreenArmor" }
+actor GreenArmorSpawner1 : RandomSpawner replaces ArmorCardboard { dropItem "GreenArmor" }
+
+actor BlueArmorSpawner0 : RandomSpawner replaces ArmorBrick      { dropItem "BlueArmor" }
+actor BlueArmorSpawner1 : RandomSpawner replaces ArmorDiamond    { dropItem "BlueArmor" }
+actor BlueArmorSpawner2 : RandomSpawner replaces ArmorThunderbox { dropItem "BlueArmor" }
+
+// Weapons /////////////////////////////////////////////////////////////////////////////////////////
+
+actor ChainsawSpawner0 : RandomSpawner replaces PaintGunVO      { dropItem "Chainsaw" }
+actor ChainsawSpawner1 : RandomSpawner replaces PaintGunsVO     { dropItem "Chainsaw" }
+actor ChainsawSpawner2 : RandomSpawner replaces DefibrillatorVO { dropItem "Chainsaw" }
+
+actor ShotgunSpawner0 : RandomSpawner replaces ShotbowVO { dropItem "Shotgun" }
+
+actor SSGSpawner0 : RandomSpawner replaces QuadcannonVO { dropItem "SuperShotgun" }
+
+actor ChaingunSpawner0 : RandomSpawner replaces OoziVO        { dropItem "Chaingun" }
+actor ChaingunSpawner1 : RandomSpawner replaces OozisVO       { dropItem "Chaingun" }
+actor ChaingunSpawner2 : RandomSpawner replaces PaintCannonVO { dropItem "Chaingun" }
+
+actor RLSpawner : RandomSpawner replaces HellShellLauncherVO { dropItem "RocketLauncher" }
+
+actor PlasmaRifleSpawner : RandomSpawner replaces SceptreVO { dropItem "PlasmaRifle" }
+
+// Ammo ////////////////////////////////////////////////////////////////////////////////////////////
+
+actor ShellSpawner : RandomSpawner replaces ShotboltAmmo { dropItem "Shell" }
+actor ShellBigSpawner : RandomSpawner replaces ShotboltAmmoBig { dropItem "ShellBox" }
+
+actor ClipSpawner0 : RandomSpawner replaces PaintAmmo { dropItem "Clip" }
+actor ClipSpawner1 : RandomSpawner replaces OoziAmmo  { dropItem "Clip" }
+actor ClipSpawner2 : RandomSpawner replaces AmmoCase  { dropItem "Clip" }
+
+
+actor ClipBigSpawner0 : RandomSpawner replaces PaintAmmoBig { dropItem "ClipBox" }
+actor ClipBigSpawner1 : RandomSpawner replaces OoziAmmoBig  { dropItem "ClipBox" }
+
+actor RocketSpawner0 : RandomSpawner replaces HellshellAmmo { dropItem "RocketAmmo" }
+actor RocketSpawner1 : RandomSpawner replaces GoonadesVO    { dropItem "RocketAmmo" }
+
+actor RocketBigSpawner : RandomSpawner replaces HellShellAmmoBig { dropItem "RocketBox" }
+
+actor CellSpawner : RandomSpawner replaces MarbleAmmo { dropItem "Cell" }
+
+actor CellBigSpawner : RandomSpawner replaces MarbleAmmoBig { dropItem "CellPack" }
+
+// Items ///////////////////////////////////////////////////////////////////////////////////////////
+
+actor BackpackSpawner : RandomSpawner replaces SquareBackpack { dropItem "Backpack" }
+
+actor SoulsphereSpawner0 : RandomSpawner replaces HappySphere { dropItem "Soulsphere" }
+
+actor MegasphereSpawner0 : RandomSpawner replaces SillySphere { dropItem "Megasphere" }
+actor MegasphereSpawner1 : RandomSpawner replaces DevilSphere { dropItem "Megasphere" }
+
+// no speed :(
+actor BerserkSpawner : RandomSpawner replaces Powerzade { dropItem "Berserk" }
+
+// no flight :(
+actor InvulSpawner0 : RandomSpawner replaces HolySphere { dropItem "InvulnerabilitySphere" }
+actor InvulSpawner1 : RandomSpawner replaces HotSauce   { dropItem "InvulnerabilitySphere" }
+
+actor AutomapSpawner : RandomSpawner replaces Locationator { dropItem "Allmap" }
+
+// Template ////////////////////////////////////////////////////////////////////////////////////////
+
+//actor  : RandomSpawner replaces  { dropItem "" }
